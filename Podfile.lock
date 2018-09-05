@@ -1,0 +1,36 @@
+PODS:
+  - BoneKit (0.3.0):
+    - PromiseKit (~> 4.4)
+  - PromiseKit (4.5.2):
+    - PromiseKit/Foundation (= 4.5.2)
+    - PromiseKit/QuartzCore (= 4.5.2)
+    - PromiseKit/UIKit (= 4.5.2)
+  - PromiseKit/CorePromise (4.5.2)
+  - PromiseKit/Foundation (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.2):
+    - PromiseKit/CorePromise
+  - Typhoon (4.0.5):
+    - Typhoon/DeallocNotifier (= 4.0.5)
+    - Typhoon/IntrospectionUtils (= 4.0.5)
+    - Typhoon/no-arc (= 4.0.5)
+  - Typhoon/DeallocNotifier (4.0.5)
+  - Typhoon/IntrospectionUtils (4.0.5)
+  - Typhoon/no-arc (4.0.5):
+    - Typhoon/IntrospectionUtils
+
+DEPENDENCIES:
+  - BoneKit
+  - PromiseKit
+  - Typhoon
+
+SPEC CHECKSUMS:
+  BoneKit: e062953f8b281bb3584ce97cbb4f34c07d5c82b9
+  PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
+  Typhoon: 58ae5754d3d0aa819119d8c107aed0dd67f1eb3b
+
+PODFILE CHECKSUM: 15c8aa8095a2694637bdae89f44604f79b4538f3
+
+COCOAPODS: 1.4.0
