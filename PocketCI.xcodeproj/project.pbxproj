@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		228B94D8213FB9D30074FA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94D7213FB9D30074FA4B /* AppDelegate.swift */; };
-		228B94DA213FB9D30074FA4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94D9213FB9D30074FA4B /* ViewController.swift */; };
+		228B94DA213FB9D30074FA4B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94D9213FB9D30074FA4B /* RootViewController.swift */; };
 		228B94DD213FB9D30074FA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B94DB213FB9D30074FA4B /* Main.storyboard */; };
 		228B94DF213FB9D50074FA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228B94DE213FB9D50074FA4B /* Assets.xcassets */; };
 		228B94E2213FB9D50074FA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228B94E0213FB9D50074FA4B /* LaunchScreen.storyboard */; };
 		228B94ED213FB9D50074FA4B /* PocketCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94EC213FB9D50074FA4B /* PocketCITests.swift */; };
+		228B94FC213FC4730074FA4B /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94FB213FC4730074FA4B /* Project.swift */; };
+		228B94FE213FC5480074FA4B /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B94FD213FC5480074FA4B /* Build.swift */; };
+		228B9505214247D40074FA4B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B9504214247D40074FA4B /* WebService.swift */; };
+		228B950721424A080074FA4B /* RequestAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B950621424A080074FA4B /* RequestAuthenticator.swift */; };
+		228B950921424A770074FA4B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B950821424A770074FA4B /* APIConstants.swift */; };
+		228B950B214250E80074FA4B /* ProjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B950A214250E80074FA4B /* ProjectService.swift */; };
 		57606B9A29E19AB880615098 /* Pods_PocketCI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D7925B3059E3E16E7931F9 /* Pods_PocketCI.framework */; };
 		6B225C8D171019940A463202 /* Pods_PocketCITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80B7FF10D03565B4E79C04B /* Pods_PocketCITests.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +36,7 @@
 /* Begin PBXFileReference section */
 		228B94D4213FB9D30074FA4B /* PocketCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228B94D7213FB9D30074FA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		228B94D9213FB9D30074FA4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		228B94D9213FB9D30074FA4B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		228B94DC213FB9D30074FA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228B94DE213FB9D50074FA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228B94E1213FB9D50074FA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,12 @@
 		228B94E8213FB9D50074FA4B /* PocketCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		228B94EC213FB9D50074FA4B /* PocketCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketCITests.swift; sourceTree = "<group>"; };
 		228B94EE213FB9D50074FA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		228B94FB213FC4730074FA4B /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		228B94FD213FC5480074FA4B /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		228B9504214247D40074FA4B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		228B950621424A080074FA4B /* RequestAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAuthenticator.swift; sourceTree = "<group>"; };
+		228B950821424A770074FA4B /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		228B950A214250E80074FA4B /* ProjectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectService.swift; sourceTree = "<group>"; };
 		59EA64F81D22F4456DBE1CB0 /* Pods-PocketCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketCI/Pods-PocketCI.release.xcconfig"; sourceTree = "<group>"; };
 		7863CEFDC92A6FA34097CD92 /* Pods-PocketCITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketCITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketCITests/Pods-PocketCITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1D7925B3059E3E16E7931F9 /* Pods_PocketCI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketCI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,11 +101,12 @@
 		228B94D6213FB9D30074FA4B /* PocketCI */ = {
 			isa = PBXGroup;
 			children = (
-				228B94D7213FB9D30074FA4B /* AppDelegate.swift */,
-				228B94D9213FB9D30074FA4B /* ViewController.swift */,
-				228B94DB213FB9D30074FA4B /* Main.storyboard */,
-				228B94DE213FB9D50074FA4B /* Assets.xcassets */,
-				228B94E0213FB9D50074FA4B /* LaunchScreen.storyboard */,
+				228B9503214247B10074FA4B /* API */,
+				228B94FA213FC2F60074FA4B /* Assembly */,
+				228B94F9213FC2EC0074FA4B /* Model */,
+				228B94F8213FC2A60074FA4B /* Resources */,
+				228B94F7213FC28A0074FA4B /* Launch */,
+				228B94D9213FB9D30074FA4B /* RootViewController.swift */,
 				228B94E3213FB9D50074FA4B /* Info.plist */,
 			);
 			path = PocketCI;
@@ -106,6 +119,51 @@
 				228B94EE213FB9D50074FA4B /* Info.plist */,
 			);
 			path = PocketCITests;
+			sourceTree = "<group>";
+		};
+		228B94F7213FC28A0074FA4B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				228B94DB213FB9D30074FA4B /* Main.storyboard */,
+				228B94E0213FB9D50074FA4B /* LaunchScreen.storyboard */,
+				228B94D7213FB9D30074FA4B /* AppDelegate.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		228B94F8213FC2A60074FA4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				228B94DE213FB9D50074FA4B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		228B94F9213FC2EC0074FA4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				228B94FB213FC4730074FA4B /* Project.swift */,
+				228B94FD213FC5480074FA4B /* Build.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		228B94FA213FC2F60074FA4B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		228B9503214247B10074FA4B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				228B9504214247D40074FA4B /* WebService.swift */,
+				228B950621424A080074FA4B /* RequestAuthenticator.swift */,
+				228B950821424A770074FA4B /* APIConstants.swift */,
+				228B950A214250E80074FA4B /* ProjectService.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		27EC0AC6727067784CB457EF /* Pods */ = {
@@ -236,8 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PocketCI/Pods-PocketCI-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoneKit/BoneKit.framework",
@@ -245,8 +301,6 @@
 				"${BUILT_PRODUCTS_DIR}/Typhoon/Typhoon.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoneKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
@@ -262,13 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,15 +331,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PocketCI-checkManifestLockResult.txt",
 			);
@@ -303,15 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PocketCITests-checkManifestLockResult.txt",
 			);
@@ -325,13 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,13 +382,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,8 +399,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228B94DA213FB9D30074FA4B /* ViewController.swift in Sources */,
+				228B94DA213FB9D30074FA4B /* RootViewController.swift in Sources */,
+				228B950921424A770074FA4B /* APIConstants.swift in Sources */,
+				228B950721424A080074FA4B /* RequestAuthenticator.swift in Sources */,
 				228B94D8213FB9D30074FA4B /* AppDelegate.swift in Sources */,
+				228B94FE213FC5480074FA4B /* Build.swift in Sources */,
+				228B9505214247D40074FA4B /* WebService.swift in Sources */,
+				228B94FC213FC4730074FA4B /* Project.swift in Sources */,
+				228B950B214250E80074FA4B /* ProjectService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

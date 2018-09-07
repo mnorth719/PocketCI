@@ -7,19 +7,24 @@
 //
 
 import UIKit
+import BoneKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
+    let service = ProjectService(webClient: WebClient(), requestAuthenticator: RequestAuthenticator())
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        service.getProjects().then { projects in
+            print(projects)
+        }.catch { (error) in
+            print(error.localizedDescription)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
